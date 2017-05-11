@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<title>Change the hyperlink and the text of an existing link</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	 $(document).ready(function() {
+	 $('button').click(function() {
+	 $('#change').attr('href', 'https://www.w3schools.com/');
+	 $('#change').text('W3Schools');
+	 });
+	 });
+	 
+</script>
+</head>
+<body>
+	<div>
+	<a href="https://acadgild.com/" id="change">Acadgild</a>
+	<button>Change href value</button
+	</div>
+
+</body>
+</html>
